@@ -3,12 +3,11 @@
     font-family: Cinzel, cursive;
   }
 
-.w3-myDarkBlue,.w3-hover-myDarkBlue:hover {color:#fff!important; background-color:#2c7c94!important;}
-.w3-myLightBlue,.w3-hover-myLightBlue:hover {color:#fff!important; background-color:#a6d0c8!important;}
-.w3-myDarkYellow,.w3-hover-myDarkYellow:hover {color:#fff!important; background-color:#c4aa23!important;}
-.w3-myLightYellow,.w3-hover-myLightYellow:hover {color:#fff!important; background-color:#fbe45b!important;}
-.w3-myDarkRed,.w3-hover-myDarkRed:hover {color:#fff!important; background-color:#a65852!important;}
-.w3-myDarkGreen,.w3-hover-myDarkGreen:hover {color:#fff!important; background-color:#343c24!important;}
+.w3-myDarkBlue,.w3-hover-myDarkBlue:hover {color:#fff!important; background-color:#163235!important;}
+.w3-myLightBlue,.w3-hover-myLightBlue:hover {color:#fff!important; background-color:#106967!important;}
+.w3-myDarkYellow,.w3-hover-myDarkYellow:hover {color:#fff!important; background-color:#4fbc9c!important;}
+.w3-myLightYellow,.w3-hover-myLightYellow:hover {color:#fff!important; background-color:#32bfda!important;}
+.w3-myDarkRed,.w3-hover-myDarkRed:hover {color:#fff!important; background-color:#efca7c!important;}
 
 .w3-text-myDarkBlue,.w3-hover-text-myDarkBlue:hover {color:#2c7c94!important}
 .w3-text-myLightBlue,.w3-hover-text-myLightBlue:hover {color:#a6d0c8!important}
