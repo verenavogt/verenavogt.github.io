@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Stefan Scholz</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--<link rel="stylesheet" href="css/styles.css">-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/my_styles.css">
+
+<script src="https://kit.fontawesome.com/0dac3da24e.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+
+<bibtex src="scholzbib2.bib"></bibtex>
+
+<style type="text/css"></style>
+
+<body>
+
+    
+    <!-- Navigation (Stays on Top) -->
+    <div class="w3-content w3-border-bottom w3-margin-bottom" style="max-width:1200px;margin:auto">
+        <div class="w3-bar w3-margin-top w3-margin-bottom w3-display-container" style="height:66px;">
+            <div class="w3-quicksand w3-display-left w3-xxlarge w3-padding">Dr. Stefan Scholz</div>
+            <div class="w3-display-right w3-large w3-padding">
+                <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-myDarkBlue"><i class="material-icons">home</i></a>
+                <a href="research.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-myDarkBlue">Research</a>
+                <a href="CV.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-myDarkBlue">CV</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-white w3-text-myDarkBlue">Publications</a>
+                <a href="consulting.html" class="w3-bar-item w3-button w3-hover-white w3-hover-text-myDarkBlue">Consulting</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bibtex_structure">
+      <div class="sections bibtextypekey">
+        <div class="section article" id="article">
+          <h3 class="w3-text-myDarkBlue w3-padding-small">Peer-reviewed articles</h3>
+          <div class="sort year" extra="DESC number">
+            <div class="templates"></div>
+          </div>
+        </div>
+        <!--<div class="section book" id="book">
+          <h3 class="w3-text-myDarkBlue">Books</h3>
+          <div class="sort year" extra="DESC number">
+            <div class="templates"></div>
+          </div>
+        </div>-->
+        <div class="section incollection" id="incollection">
+          <h3 class="w3-text-myDarkBlue">Reports | Book chapters</h3>
+          <div class="sort year" extra="DESC number">
+            <div class="templates"></div>
+          </div>
+        </div>
+        <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport" id="other">
+          <h3 class="w3-text-myDarkBlue">Other Publications</h3>
+          <div class="sort year" extra="DESC number">
+            <div class="templates"></div>
+          </div>
+        </div>
+        <div class="section keynotes" id="keynotes">
+          <h3 class="w3-text-myDarkBlue">Keynotes</h3>
+          <div class="sort year" extra="DESC number">
+            <div class="templates"></div>
+          </div>
+        </div>
+        <div class="section presentation" id="presentation">
+          <h3 class="w3-text-myDarkBlue">Presentations</h3>
+          <div class="sort year" extra="DESC number">
+            <div class="templates"></div>
+          </div>
+        </div>
+        <div class="section poster" id="poster">
+          <h3 class="w3-text-myDarkBlue">Poster</h3>
+          <div class="sort year" extra="DESC number">
+            <div class="templates"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-main w3-margin-top w3-margin-bottom" style="max-width:1200px;margin:auto">
+      <div class="w3-row-padding">
+        <div class="w3-third">
+          <!--
+          <div class="w3-content w3-margin-bottom">
+            <h4 style="margin-bottom:3pt">Summary</h4>
+            <table>
+              <tr>
+                <td>h-index (<a href="https://scholar.google.com/citations?user=8P8xvI4AAAAJ&hl=en">google scholar</a>)</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>h-index (<a href="https://www.scopus.com/authid/detail.uri?authorId=56400369600">scopus</a>)</td>
+                <td>9</td>
+              </tr>
+            </table>
+          </div>-->
+          <div class="w3-content w3-margin-bottom">
+            <h4 style="margin-bottom:3pt">Table</h4>
+            <ul.a>
+              <li><a href="#article">Peer-reviewd article</a></li>
+              <!--<li><a href="#book">Books</a></li>-->
+              <li><a href="#incollection">Reports | Book chapters</a></li>
+              <li><a href="#other">Other Publications</a></li>
+              <li><a href="#keynotes">Keynotes</a></li>
+              <li><a href="#presentation">Presentations</a></li>
+              <li><a href="#poster">Poster</a></li>
+            </ul.a>
+          </div>
+
+          <h4 style="margin-bottom:3pt">Filter publications</h4>
+          <div class="w3-bar-block">
+            <select id="keywordsselect" class="w3-border w3-round w3-border-grey w3-margin-bottom bibtex_search" search="keywords" style="width:66%">
+              <option value="">Choose Disease</option>
+              <!-- Add topic values here -->
+              <option value="COVID-19">COVID-19</option>
+              <option value="Influenza">Influenza</option>
+              <option value="RSV">RSV</option>
+              <option value="STI">STI</option>
+              <option value="Meningococcal">Meningococcal</option>
+              <option value="Pneumoococcal">Pneumoococcal</option>
+              <option value="Rheumatoid Arthritis">Rheumatoid Arthritis</option>
+              <option value="Very Low Birth Weight">Very Low Birth Weight</option>
+              <option value="none">none</option>
+            </select>
+            <select id="keywordsselect" class="w3-border w3-round w3-border-grey bibtex_search" search="keywords" style="width:66%">
+              <option value="">Choose Method</option>
+              <!-- Add topic values here -->
+              <option value="Infectious Disease Modeling">Infectious Disease Modeling</option>
+              <option value="Decision Modelng">Decision Modelng</option>
+              <option value="Cost-of-Illness">Cost-of-Illness</option>
+              <option value="Cost-Effectiveness">Cost-Effectiveness</option>
+              <option value="Survey">Survey</option>
+              <option value="Systematic Review">Systematic Review</option>
+            </select>
+          </div>
+        </div>
+        <div class="w3-twothird">
+          <div id="bibtex_display">
+              <div class="if bibtex_template" style="display:none;">
+                  <ul class="w3-ul"> 
+                      <li class="w3-padding-small">
+                          <div class="if author">
+                              <span class="author"></span>
+                          </div>
+                          <span class="if title">
+                                  <span class="title" style="font-weight: bold;"></span>,
+                          </span>
+                          <div>
+                              <span class="if journal"><em><span class="journal"></span></em>,</span>
+                              <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
+                              <span class="if editor"><span class="editor"></span> (editors),</span>
+                              <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+                              <span class="if institution"><span class="institution"></span>,</span>
+                              <span class="if address"><span class="address"></span>,</span>
+                              <span class="if volume"><span class="volume">:</span></span>
+                              <span class="if number">(<span class="number"></span>),</span>
+                              <span class="if pages"> pages <span class="pages"></span>,</span>
+                              <span class="if month"><span class="month"></span>,</span>
+                              <span class="if year"><span class="year"></span>.</span>
+                          </div>
+                          <div style="display:none"><span class="bibtextype"></span></div>
+                          <div style="display:none"><span class="if keywords"><span class="keywords"></span></span></div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div> 
+    </div>
+
+    <footer class="w3-content w3-border-top w3-center w3-margin-top" style="max-width:1200px;margin:auto">
+      <div class="w3-display-containter w3-margin w3-padding" style="height:66px;">
+          <a href="mailto:stefan.scholz@moovid.de"><i class="w3-button w3-round w3-light-gray w3-hover-text-myDarkGreen w3-hover-myLightYellow material-icons md-48" style="font-size: 32px">mail</i></a>
+          <a href="https://scholar.google.com/citations?user=8P8xvI4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="w3-button w3-round w3-light-gray w3-hover-text-myDarkGreen w3-hover-myLightYellow ai ai-google-scholar" style="font-size: 32px"></i></a>
+          <a href="https://www.researchgate.net/profile/Stefan-Scholz-4" target="_blank" rel="noopener noreferrer"><i class="w3-button w3-round w3-light-gray w3-hover-text-myDarkGreen w3-hover-myLightYellow ai ai-researchgate" style="font-size: 32px"></i></a>
+          <a href="https://twitter.com/StefanScholz85" target="_blank" rel="noopener noreferrer"><i class="w3-button w3-round w3-light-gray w3-hover-text-myDarkGreen w3-hover-myLightYellow fa fa-twitter" style="font-size:32px"></i></a>
+          <a href="https://orcid.org/my-orcid?orcid=0000-0002-8421-8829" target="_blank" rel="noopener noreferrer"><i class="w3-button w3-round w3-light-gray w3-hover-text-myDarkGreen w3-hover-myLightYellow ai ai-orcid" style="font-size:32px"></i></a>
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=56400369600" target="_blank" rel="noopener noreferrer"><i class="w3-button w3-round w3-light-gray w3-hover-text-myDarkGreen w3-hover-myLightYellow ai ai-scopus" style="font-size:32px"></i></a> 
+      </div>
+      <div class="w3-small">
+          <p>2022 &copy; Stefan Scholz</p>
+          <p>Impressum: Dr. Stefan Scholz, Schopenhauerstr. 4b, 06114 Halle (Saale)</p>
+      </div>
+  </footer>
+
+</body>
+
+</html>
